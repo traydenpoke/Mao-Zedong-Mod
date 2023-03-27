@@ -20,6 +20,11 @@
     <RootNamespace>Zedong</RootNamespace>
     <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="NewAction"><File>Core/Template_Config.sql</File><File>Core/Template_Buildings.xml</File><File>Core/Template_Units.xml</File></UpdateDatabase><UpdateIcons id="NewAction"><File>Core/Template_Icons.xml</File></UpdateIcons><UpdateText id="NewAction"><File>Core/Template_GameText.xml</File></UpdateText><UpdateArt id="NewAction"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
     <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="NewAction"><File>Core/Template_GameDefines.sql</File><File>Core/Template_Buildings.xml</File><File>Core/Template_Units.xml</File></UpdateDatabase><UpdateIcons id="NewAction"><File>Core/Template_Icons.xml</File></UpdateIcons><UpdateText id="NewAction"><File>Core/Template_GameText.xml</File></UpdateText><UpdateArt id="NewAction"><File>(Mod Art Dependency File)</File></UpdateArt></InGameActions>]]></InGameActionData>
+    <AssociationData><![CDATA[<Associations>
+  <Dependency type="Dlc" title="Expansion: Gathering Storm" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
+  <Dependency type="Dlc" title="Expansion: Rise and Fall" id="1B28771A-C749-434B-9053-D1380C553DE9" />
+  <Dependency type="Dlc" title="DLC: Aztec Civilization Pack" id="02A8BDDE-67EA-4D38-9540-26E685E3156E" />
+</Associations>]]></AssociationData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>

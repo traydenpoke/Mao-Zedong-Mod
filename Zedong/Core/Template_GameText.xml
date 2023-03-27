@@ -466,10 +466,10 @@
 		</Row>
 
 		<Row Tag="LOC_BUILDING_TEMP_CUSTOM_NAME" Language="en_US">
-			<Text>GREAT WALL</Text>
+			<Text>THE WORKERS HALL</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_TEMP_CUSTOM_DESCRIPTION" Language="en_US">
-			<Text>Unlocks the builder ability to construct the Great Wall. +2 [ICON_gold] Gold. Provides an increase to [ICON_strength] Defense. Bonus to [ICON_gold] Gold if adjacent to other wall segments. Additional [ICON_culture] Culture and [ICON_tourism] Tourism as you advance through the Technology Tree for adjacent segments. Must be built in a line along the borders of your empire. Can only be pillaged (never destroyed) by natural disasters.</Text>
+			<Text>A district unique to China for industrial activity. Replaces the Industial Zone district and is cheaper to build. +2 [ICON_production] Production for each adjacent Commercial Hub, Aqueduct, Canal, and Dam districts. +1 [ICON_production] Production bonus for each adjacent resource. +1 [ICON_production] Production bonus for every two adjacent district tiles.</Text>
 		</Row>
 		
 		<Row Tag="LOC_UNIT_TEMP_CUSTOM_I_NAME" Language="en_US">

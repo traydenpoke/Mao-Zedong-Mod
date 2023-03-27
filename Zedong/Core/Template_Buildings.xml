@@ -1,25 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameInfo>
 	<Types>
-		<Row Type="BUILDING_TEMP_CUSTOM" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_TEMP_CUSTOM" Kind="KIND_DISTRICT"/>
 	</Types>
 
-	<BuildingReplaces>
-		<Row CivUniqueBuildingType="BUILDING_TEMP_CUSTOM" ReplacesBuildingType="BUILDING_MARKET"/>
-	</BuildingReplaces>
+	<DistrictReplaces>
+		<Row CivUniqueDistrictType="BUILDING_TEMP_CUSTOM" ReplacesDistrictType="DISTRICT_INDUSTRIAL_ZONE"/>
+	</DistrictReplaces>
 	
-	<Buildings>
-		<Row BuildingType="BUILDING_TEMP_CUSTOM" Name="LOC_BUILDING_TEMP_CUSTOM_NAME" Description="LOC_BUILDING_TEMP_CUSTOM_DESCRIPTION" PrereqTech="TECH_CURRENCY" PrereqDistrict="DISTRICT_COMMERCIAL_HUB" PurchaseYield="YIELD_GOLD" Cost="105" AdvisorType="ADVISOR_GENERIC" CitizenSlots="1" Maintenance="0" TraitType="TRAIT_CIVILIZATION_BUILDING_TEMP_CUSTOM"/>
-	</Buildings>
+	<Districts>
+		<Row DistrictType="BUILDING_TEMP_CUSTOM" Name="LOC_BUILDING_TEMP_CUSTOM_NAME" Description="LOC_BUILDING_TEMP_CUSTOM_DESCRIPTION" PrereqTech="TECH_APPRENTICESHIP" PlunderType="PLUNDER_SCIENCE" PlunderAmount="25"  AdvisorType="ADVISOR_GENERIC" Cost="27" CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH" CostProgressionParam1="40" Maintenance="1" RequiresPlacement="true" RequiresPopulation="true" Aqueduct="false" NoAdjacentCity="false" InternalOnly="false" ZOC="false" CaptureRemovesBuildings="false" CaptureRemovesCityDefenses="false" MilitaryDomain="NO_DOMAIN" Appeal="-1" CityStrengthModifier="2" TraitType="TRAIT_CIVILIZATION_BUILDING_TEMP_CUSTOM"/>
+	</Districts>
+
+	<District_Adjacencies>
+		<Row DistrictType="BUILDING_TEMP_CUSTOM" YieldChangeId="Commerical_Hub_Production"/>
+		<Row DistrictType="BUILDING_TEMP_CUSTOM" YieldChangeId="District_Production"/>
+		<Row DistrictType="BUILDING_TEMP_CUSTOM" YieldChangeId="Resource_Production"/>
+	</District_Adjacencies>
+
+	<District_CitizenYieldChanges>
+		<Row DistrictType="BUILDING_TEMP_CUSTOM" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+	</District_CitizenYieldChanges>
 	
-	<Building_YieldChanges>
-		<Row BuildingType="BUILDING_TEMP_CUSTOM" YieldType="YIELD_GOLD" YieldChange="10"/>
-		<Row BuildingType="BUILDING_TEMP_CUSTOM" YieldType="YIELD_SCIENCE" YieldChange="5"/>
-		<Row BuildingType="BUILDING_TEMP_CUSTOM" YieldType="YIELD_CULTURE" YieldChange="5"/>
-		<Row BuildingType="BUILDING_TEMP_CUSTOM" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
-	</Building_YieldChanges>
-	
-	<Building_GreatPersonPoints>
-		<Row BuildingType="BUILDING_TEMP_CUSTOM" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="5"/>
-	</Building_GreatPersonPoints>
+	<District_GreatPersonPoints>
+		<Row DistrictType="BUILDING_TEMP_CUSTOM" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="1"/>
+	</District_GreatPersonPoints>
+
+	<Adjacency_YieldChanges>
+		<Row ID="Commerical_Hub_Production" Description="LOC_DISTRICT_COMMERCIAL_HUB_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_COMMERCIAL_HUB"/>
+		<Row ID="District_Production" Description="LOC_DISTRICT_DISTRICT_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="1" TilesRequired="2" OtherDistrictAdjacent="true"/>
+		<Row ID="Resource_Production" Description="LOC_DISTRICT_RESOURCE_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="1" TilesRequired="1" AdjacentResource="true"/>
+	</Adjacency_YieldChanges>
+
+	<District_TradeRouteYields>
+		<Row DistrictType="BUILDING_TEMP_CUSTOM" YieldType="YIELD_PRODUCTION" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="1"/>
+	</District_TradeRouteYields>
 </GameInfo>

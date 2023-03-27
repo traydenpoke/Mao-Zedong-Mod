@@ -39,7 +39,7 @@
 
 
 		<!--Building Icons, potentially where I change greatwall and crouching tiger ingame ?--> 
-		<Row Name="ICON_BUILDING_TEMP_CUSTOM" Atlas="ICON_ATLAS_UNIT_ACTIONS" Index="18"/>
+		<Row Name="ICON_BUILDING_TEMP_CUSTOM" Atlas="ICON_ATLAS_DISTRICTS" Index="9"/>
 		<Row Name="ICON_UNIT_TEMP_CUSTOM_I" Atlas="ICON_ATLAS_UNITS" Index="50"/>
 
 	</IconDefinitions>
