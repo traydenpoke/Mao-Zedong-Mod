@@ -42,9 +42,9 @@ INSERT INTO PlayerColors
 VALUES	('LEADER_TEMP_LEADER_CUSTOM',	'Unique',		'COLOR_PLAYER_TEMP_CIV_CUSTOM_LEADER_CUSTOM_PRIMARY',		'COLOR_PLAYER_TEMP_CIV_CUSTOM_LEADER_CUSTOM_SECONDARY', 		'COLOR_PLAYER_WHITE_TEXT');	
 
 INSERT INTO Colors 
-		(Type, 															Red, 	Green, 	Blue, 	Alpha)
-VALUES	('COLOR_PLAYER_TEMP_CIV_CUSTOM_LEADER_CUSTOM_PRIMARY',	1,	1,	1,	1),
-		('COLOR_PLAYER_TEMP_CIV_CUSTOM_LEADER_CUSTOM_SECONDARY', 	1,	0,	0,	1);
+		(Type, 														Red, 	Green, 	Blue, 	Alpha)
+VALUES	('COLOR_PLAYER_TEMP_CIV_CUSTOM_LEADER_CUSTOM_PRIMARY',		1,		0,		0,		1),
+		('COLOR_PLAYER_TEMP_CIV_CUSTOM_LEADER_CUSTOM_SECONDARY', 	1,		1,		0,		1);
 
 
 
@@ -249,8 +249,7 @@ INSERT INTO Types
 		(Type,													Kind)
 VALUES	('TRAIT_CIVILIZATION_TEMP_CIV_TRAIT',					'KIND_TRAIT'),
 		('TRAIT_CIVILIZATION_BUILDING_TEMP_CUSTOM',				'KIND_TRAIT'),
-		('TRAIT_CIVILIZATION_UNIT_TEMP_CUSTOM_I',				'KIND_TRAIT'),
-		('TRAIT_CIVILIZATION_UNIT_TEMP_CUSTOM_II',				'KIND_TRAIT');
+		('TRAIT_CIVILIZATION_UNIT_TEMP_CUSTOM_I',				'KIND_TRAIT');
 --------------------------------------------------------------------------------------------------------------------------			
 -- Traits			
 --------------------------------------------------------------------------------------------------------------------------				
@@ -258,8 +257,7 @@ INSERT INTO Traits
 		(TraitType,													Name,													Description)
 VALUES	('TRAIT_CIVILIZATION_TEMP_CIV_TRAIT',						'LOC_TRAIT_CIVILIZATION_TEMP_CIV_TRAIT_NAME',					'LOC_TRAIT_CIVILIZATION_TEMP_CIV_TRAIT_DESCRIPTION'),
 		('TRAIT_CIVILIZATION_BUILDING_TEMP_CUSTOM',				'LOC_TRAIT_CIVILIZATION_BUILDING_TEMP_CUSTOM_NAME',			'LOC_TRAIT_CIVILIZATION_BUILDING_TEMP_CUSTOM_DESCRIPTION'),
-		('TRAIT_CIVILIZATION_UNIT_TEMP_CUSTOM_I',				'LOC_UNIT_TEMP_CUSTOM_I_NAME',								'LOC_UNIT_TEMP_CUSTOM_I_DESCRIPTION'),			
-		('TRAIT_CIVILIZATION_UNIT_TEMP_CUSTOM_II',				'LOC_UNIT_TEMP_CUSTOM_II_NAME',								'LOC_UNIT_TEMP_CUSTOM_II_DESCRIPTION');			
+		('TRAIT_CIVILIZATION_UNIT_TEMP_CUSTOM_I',				'LOC_UNIT_TEMP_CUSTOM_I_NAME',								'LOC_UNIT_TEMP_CUSTOM_I_DESCRIPTION');			
 --------------------------------------------------------------------------------------------------------------------------		
 -- TraitModifiers		
 --------------------------------------------------------------------------------------------------------------------------			
@@ -310,8 +308,7 @@ INSERT INTO CivilizationTraits
 		(TraitType,															CivilizationType)
 VALUES	('TRAIT_CIVILIZATION_TEMP_CIV_TRAIT',									'CIVILIZATION_TEMP_CIV_CUSTOM'),
 		('TRAIT_CIVILIZATION_BUILDING_TEMP_CUSTOM',							'CIVILIZATION_TEMP_CIV_CUSTOM'),
-		('TRAIT_CIVILIZATION_UNIT_TEMP_CUSTOM_I',							'CIVILIZATION_TEMP_CIV_CUSTOM'),
-		('TRAIT_CIVILIZATION_UNIT_TEMP_CUSTOM_II',							'CIVILIZATION_TEMP_CIV_CUSTOM');
+		('TRAIT_CIVILIZATION_UNIT_TEMP_CUSTOM_I',							'CIVILIZATION_TEMP_CIV_CUSTOM');
 
 
 

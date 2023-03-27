@@ -38,10 +38,9 @@
 		<Row Name="ICON_CIVILIZATION_TEMP_CIV_CUSTOM" Atlas="ICON_ATLAS_CIV_CUSTOM" Index="0"/>
 
 
-		<!--Building Icons-->
-		<Row Name="ICON_BUILDING_TEMP_CUSTOM" Atlas="ICON_ATLAS_BUILDINGS" Index="11"/>
-		<Row Name="ICON_UNIT_TEMP_CUSTOM_I" Atlas="ICON_ATLAS_UNITS" Index="71"/>
-		<Row Name="ICON_UNIT_TEMP_CUSTOM_II" Atlas="ICON_ATLAS_UNITS" Index="88"/>
+		<!--Building Icons, potentially where I change greatwall and crouching tiger ingame ?--> 
+		<Row Name="ICON_BUILDING_TEMP_CUSTOM" Atlas="ICON_ATLAS_UNIT_ACTIONS" Index="18"/>
+		<Row Name="ICON_UNIT_TEMP_CUSTOM_I" Atlas="ICON_ATLAS_UNITS" Index="50"/>
 
 	</IconDefinitions>
 </GameData>

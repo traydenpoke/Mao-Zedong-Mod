@@ -7,7 +7,7 @@
 			<Text>China</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_TEMP_CIV_CUSTOM_DESCRIPTION" Language="en_US">
-			<Text>China.</Text>
+			<Text>China</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_TEMP_CIV_CUSTOM_ADJECTIVE" Language="en_US">
 			<Text>Preserve Chinese communism by purging the capitalists.</Text>
@@ -476,13 +476,7 @@
 			<Text>CROUCHING TIGER</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_TEMP_CUSTOM_I_DESCRIPTION" Language="en_US">
-			<Text>Chinese unique Medieval era unit, replaces the Crossbowman. Ranged unit with a [ICON_range] Range of 1 and high combat strength.</Text>
-		</Row>
-		<Row Tag="LOC_UNIT_TEMP_CUSTOM_II_NAME" Language="en_US">
-			<Text>Other Custom Unit</Text>
-		</Row>
-		<Row Tag="LOC_UNIT_TEMP_CUSTOM_II_DESCRIPTION" Language="en_US">
-			<Text>This unit replaces Mechanized Infantry and has higher melee strength than normal Mechanized Infantry with less production value.</Text>
+			<Text>Chinese unique Medieval era unit, replaces the Crossbowman. Ranged unit with a [ICON_range] Range of 1 and high combat strength, as well as lower [ICON_production] Production cost.</Text>
 		</Row>
 
 		
