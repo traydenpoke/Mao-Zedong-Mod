@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+	<LocalizedText>
+		<!--CIVILIZATION-->
+		<Row Tag="LOC_CIVILIZATION_TEMP_CIV_CUSTOM_NAME" Language="en_US">
+			<Text>China</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_TEMP_CIV_CUSTOM_DESCRIPTION" Language="en_US">
+			<Text>China.</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_TEMP_CIV_CUSTOM_ADJECTIVE" Language="en_US">
+			<Text>Preserve Chinese communism by purging the capitalists.</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_TEMP_CIV_CUSTOM_DESCRIPTION_TEMP_CIVILIZATION" Language="en_US">
+			<Text>Chinese ruled by Chairman Mao Zedong.</Text>
+		</Row>
+		<!--Pedia-->
+		<Row Tag="LOC_CIVINFO_TEMP_CIV_CUSTOM_LOCATION" Language="en_US">
+			<Text>China</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_TEMP_CIV_CUSTOM_POPULATION" Language="en_US">
+			<Text>1.412 Billion</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_TEMP_CIV_CUSTOM_SIZE" Language="en_US">
+			<Text>9.597 Million SQKM</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_TEMP_CIV_CUSTOM_CAPITAL" Language="en_US">
+			<Text>Beijing</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_TEMP_CIV_CUSTOM_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>WIP</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_TEMP_CIV_CUSTOM_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>WIP</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_TEMP_CIV_CUSTOM_CHAPTER_HISTORY_PARA_3" Language="en_US">
+			<Text>WIP</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_TEMP_CIV_CUSTOM_CHAPTER_HISTORY_PARA_4" Language="en_US">
+			<Text>WIP</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_TEMP_CIV_CUSTOM_CHAPTER_HISTORY_PARA_5" Language="en_US">
+			<Text>WIP</Text>
+		</Row>
+		
+		
+		<!--Cities-->
+		<Row Tag="LOC_CITY_NAME_TEMP_CIV_CUSTOM_1" Language="en_US">
+			<Text>Beijing</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TEMP_CIV_CUSTOM_2" Language="en_US">
+			<Text>Shanghai</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TEMP_CIV_CUSTOM_3" Language="en_US">
+			<Text>Guangzhou</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TEMP_CIV_CUSTOM_4" Language="en_US">
+			<Text>Shenzhen</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TEMP_CIV_CUSTOM_5" Language="en_US">
+			<Text>Chengdu</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TEMP_CIV_CUSTOM_6" Language="en_US">
+			<Text>Tianjin</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TEMP_CIV_CUSTOM_7" Language="en_US">
+			<Text>Chongqing</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TEMP_CIV_CUSTOM_8" Language="en_US">
+			<Text>Nanjing</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TEMP_CIV_CUSTOM_9" Language="en_US">
+			<Text>Wuhan</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TEMP_CIV_CUSTOM_10" Language="en_US">
+			<Text>Xi'an</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TEMP_CIV_CUSTOM_11" Language="en_US">
+			<Text>Hangzhou</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TEMP_CIV_CUSTOM_12" Language="en_US">
+			<Text>Shenyang</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TEMP_CIV_CUSTOM_13" Language="en_US">
+			<Text>Dongguan</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TEMP_CIV_CUSTOM_14" Language="en_US">
+			<Text>Foshan</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TEMP_CIV_CUSTOM_15" Language="en_US">
+			<Text>Harbin</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TEMP_CIV_CUSTOM_16" Language="en_US">
+			<Text>Dalian</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TEMP_CIV_CUSTOM_17" Language="en_US">
+			<Text>Qingdao</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TEMP_CIV_CUSTOM_18" Language="en_US">
+			<Text>Zhengzhou</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TEMP_CIV_CUSTOM_19" Language="en_US">
+			<Text>Jinan</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TEMP_CIV_CUSTOM_20" Language="en_US">
+			<Text>Changsha</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TEMP_CIV_CUSTOM_21" Language="en_US">
+			<Text>Kunming</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TEMP_CIV_CUSTOM_22" Language="en_US">
+			<Text>Changchun</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TEMP_CIV_CUSTOM_23" Language="en_US">
+			<Text>Ürümqi</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TEMP_CIV_CUSTOM_24" Language="en_US">
+			<Text>Shantou</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TEMP_CIV_CUSTOM_25" Language="en_US">
+			<Text>Suzhou</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TEMP_CIV_CUSTOM_26" Language="en_US">
+			<Text>Hefei</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TEMP_CIV_CUSTOM_27" Language="en_US">
+			<Text>Shijiazhuang</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TEMP_CIV_CUSTOM_28" Language="en_US">
+			<Text>Ningbo</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TEMP_CIV_CUSTOM_29" Language="en_US">
+			<Text>Taiyuan</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TEMP_CIV_CUSTOM_30" Language="en_US">
+			<Text>Nanning</Text>
+		</Row>
+		
+		
+		
+		<!--Citizens-->
+		<Row Tag="LOC_CITIZEN_TEMP_CIV_CUSTOM_MALE_1" Language="en_US">
+			<Text>Some Guy</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TEMP_CIV_CUSTOM_MALE_2" Language="en_US">
+			<Text>Some Guy</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TEMP_CIV_CUSTOM_MALE_3" Language="en_US">
+			<Text>Some Guy</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TEMP_CIV_CUSTOM_MALE_4" Language="en_US">
+			<Text>Some Guy</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TEMP_CIV_CUSTOM_MALE_5" Language="en_US">
+			<Text>Some Guy</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TEMP_CIV_CUSTOM_MALE_6" Language="en_US">
+			<Text>Some Guy</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TEMP_CIV_CUSTOM_MALE_7" Language="en_US">
+			<Text>Some Guy</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TEMP_CIV_CUSTOM_MALE_8" Language="en_US">
+			<Text>Some Guy</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TEMP_CIV_CUSTOM_MALE_9" Language="en_US">
+			<Text>Some Guy</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_MALE_1" Language="en_US">
+			<Text>Some Modern Guy</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_MALE_2" Language="en_US">
+			<Text>Some Modern Guy</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_MALE_3" Language="en_US">
+			<Text>Some Modern Guy</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_MALE_4" Language="en_US">
+			<Text>Some Modern Guy</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_MALE_5" Language="en_US">
+			<Text>Some Modern Guy</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_MALE_6" Language="en_US">
+			<Text>Some Modern Guy</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_MALE_7" Language="en_US">
+			<Text>Some Modern Guy</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_MALE_8" Language="en_US">
+			<Text>Some Modern Guy</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_MALE_9" Language="en_US">
+			<Text>Some Modern Guy</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_MALE_10" Language="en_US">
+			<Text>Some Modern Guy</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TEMP_CIV_CUSTOM_FEMALE_1" Language="en_US">
+			<Text>Some Girl</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TEMP_CIV_CUSTOM_FEMALE_2" Language="en_US">
+			<Text>Some Girl</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TEMP_CIV_CUSTOM_FEMALE_3" Language="en_US">
+			<Text>Some Girl</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TEMP_CIV_CUSTOM_FEMALE_4" Language="en_US">
+			<Text>Some Girl</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TEMP_CIV_CUSTOM_FEMALE_5" Language="en_US">
+			<Text>Some Girl</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TEMP_CIV_CUSTOM_FEMALE_6" Language="en_US">
+			<Text>Some Girl</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TEMP_CIV_CUSTOM_FEMALE_7" Language="en_US">
+			<Text>Some Girl</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TEMP_CIV_CUSTOM_FEMALE_8" Language="en_US">
+			<Text>Some Girl</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TEMP_CIV_CUSTOM_FEMALE_9" Language="en_US">
+			<Text>Some Girl</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TEMP_CIV_CUSTOM_FEMALE_10" Language="en_US">
+			<Text>Some Girl</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_FEMALE_1" Language="en_US">
+			<Text>Some Modern Girl</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_FEMALE_2" Language="en_US">
+			<Text>Some Modern Girl</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_FEMALE_3" Language="en_US">
+			<Text>Some Modern Girl</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_FEMALE_4" Language="en_US">
+			<Text>Some Modern Girl</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_FEMALE_5" Language="en_US">
+			<Text>Some Modern Girl</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_FEMALE_6" Language="en_US">
+			<Text>Some Modern Girl</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_FEMALE_7" Language="en_US">
+			<Text>Some Modern Girl</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_FEMALE_8" Language="en_US">
+			<Text>Some Modern Girl</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_FEMALE_9" Language="en_US">
+			<Text>Some Modern Girl</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_FEMALE_10" Language="en_US">
+			<Text>Some Modern Girl</Text>
+		</Row>
+		
+		
+		
+		<!--LEADER-->
+		<Row Tag="LOC_LEADER_TEMP_LEADER_CUSTOM" Language="en_US">
+			<Text>Mao Zedong</Text>
+		</Row>
+
+		
+		<!--DOM-->
+		<Row Tag="LOC_LOADING_INFO_LEADER_TEMP_LEADER_CUSTOM" Language="en_US">
+			<Text>Politics is war without bloodshed, while war is politics with bloodshed.</Text>
+		</Row>
+		
+		
+		<!--Civilopedia-->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TEMP_LEADER_CUSTOM_TITLE" Language="en_US">
+			<Text>Chairmain Mao Zedong</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TEMP_LEADER_CUSTOM_SUBTITLE" Language="en_US">
+			<Text>Chairman</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TEMP_LEADER_CUSTOM_QUOTE" Language="en_US">
+			<Text>All political power comes from the barrel of a gun.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TEMP_LEADER_CUSTOM_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>WIP</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TEMP_LEADER_CUSTOM_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>WIP</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TEMP_LEADER_CUSTOM_CHAPTER_HISTORY_PARA_3" Language="en_US">
+			<Text>WIP</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TEMP_LEADER_CUSTOM_CHAPTER_HISTORY_PARA_4" Language="en_US">
+			<Text>WIP</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TEMP_LEADER_CUSTOM_CHAPTER_HISTORY_PARA_5" Language="en_US">
+			<Text>WIP</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TEMP_LEADER_CUSTOM_CHAPTER_HISTORY_PARA_6" Language="en_US">
+			<Text>WIP</Text>
+		</Row>
+		
+		
+		<!--Diplomacy-->
+		<!--FIRST MEET-->
+		<!--First AI line-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_TEMP_LEADER_CUSTOM_ANY" Language="en_US">
+			<Text>Ah another Customer, welcome to my city!</Text>
+		</Row>
+		<!--AI invitation to visit nearby City-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_TEMP_LEADER_CUSTOM_ANY" Language="en_US">
+			<Text>Do you want to visit rfjeiw?</Text>
+		</Row>
+		<!--AI accepts Human invitation-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_TEMP_LEADER_CUSTOM_ANY" Language="en_US">
+			<Text>Let me come and inspect your city, I bet it's not Efficient...</Text>
+		</Row>
+		<!--AI invitation to exchange Capital Information-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_TEMP_LEADER_CUSTOM_ANY" Language="en_US">
+			<Text>Let's compare Cities, I know that yours will be trash, but you can look at mine for help!</Text>
+		</Row>
+		<!--GREETINGS-->
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_TEMP_LEADER_CUSTOM_ANY" Language="en_US">
+			<Text>Need help with anything?</Text>
+		</Row>
+		<!--DELEGATION-->
+		<!--AI Accepts-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_TEMP_LEADER_CUSTOM_ANY" Language="en_US">
+			<Text>Thank you for your money, have a nice day.</Text>
+		</Row>
+		<!--AI Rejects-->
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_TEMP_LEADER_CUSTOM_ANY" Language="en_US">
+			<Text>We are closed.</Text>
+		</Row>
+		<!--AI Requests -->
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_TEMP_LEADER_CUSTOM_ANY" Language="en_US">
+			<Text>We have delivered a shipment for you.</Text>
+		</Row>
+		<!--OPEN BORDERS-->
+		<!--AI accepts from human-->
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_TEMP_LEADER_CUSTOM_ANY" Language="en_US">
+			<Text>We will accept this contract</Text>
+		</Row>
+		<!--AI rejects from human-->
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_TEMP_LEADER_CUSTOM_ANY" Language="en_US">
+			<Text>Your contract does not intrest us. </Text>
+		</Row>
+		<!--AI requests from human-->
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_TEMP_LEADER_CUSTOM_ANY" Language="en_US">
+			<Text>We propose a contract</Text>
+		</Row>
+		<!--DECLARE FRIENDSHIP-->
+		<!--AI accepts from human-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_TEMP_LEADER_CUSTOM_ANY" Language="en_US">
+			<Text>Closer Relations is in the best interest... At this time.</Text>
+		</Row>
+		<!--AI Rejects from human -->
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_TEMP_LEADER_CUSTOM_ANY" Language="en_US">
+			<Text>Closer relations is not in our interests.</Text>
+		</Row>
+		<!--AI Requests friendship from human-->
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_TEMP_LEADER_CUSTOM_ANY" Language="en_US">
+			<Text>I propose closer relations. What say you?</Text>
+		</Row>
+		<!--Human accepts AI requests, AI responds-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_TEMP_LEADER_CUSTOM_ANY" Language="en_US">
+			<Text>Glad that you agree.</Text>
+		</Row>
+		<!--Human rejects AI requests, AI responds-->
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_TEMP_LEADER_CUSTOM_ANY" Language="en_US">
+			<Text>You wouldn't have made us anything anyways.</Text>
+		</Row>
+		<!--ALLIANCE-->
+		<!--AI Requests an alliance from human-->
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_TEMP_LEADER_CUSTOM_ANY" Language="en_US">
+			<Text>I propose a partnership contract.</Text>
+		</Row>
+		<!--KUDOS & WARNINGS-->
+		<!--AI Kudos-->
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_TEMP_LEADER_CUSTOM_ANY" Language="en_US">
+			<Text>Our interest are similar. Good.</Text>
+		</Row>
+		<!--AI Warnings-->
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_TEMP_LEADER_CUSTOM_ANY" Language="en_US">
+			<Text>Your interest are conflicting with ours. Be careful.</Text>
+		</Row>
+		<!--AI warns player for border troops-->
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_TEMP_LEADER_CUSTOM_ANY" Language="en_US">
+			<Text>You have too many armed associates on our borders. What's the meaning of this?</Text>
+		</Row>
+		<!--TRADE-->
+		<!--AI Accepts Deal-->
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_TEMP_LEADER_CUSTOM_ANY" Language="en_US">
+			<Text>{LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_TEMP_LEADER_CUSTOM_ANY}</Text>
+		</Row>
+		<!--AI Rejects Deal-->
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_TEMP_LEADER_CUSTOM_ANY" Language="en_US">
+			<Text>{LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_TEMP_LEADER_CUSTOM_ANY}</Text>
+		</Row>
+		<!--DENOUNCE-->
+		<!--From Human-->
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_TEMP_LEADER_CUSTOM_ANY" Language="en_US">
+			<Text>That was a mistake. The waters ahead aren't calm.</Text>
+		</Row>
+		<!--From AI-->
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_TEMP_LEADER_CUSTOM_ANY" Language="en_US">
+			<Text>Your interest are too far from our own and we will not stand for it! (Denounces You)</Text>
+		</Row>
+		<!--DECLARE WAR-->
+		<!--Human Declares War-->
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_TEMP_LEADER_CUSTOM_ANY" Language="en_US">
+			<Text>Our interests conflict. Time to add you to the monopoly!</Text>
+		</Row>
+		<!--AI Declares War-->
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_TEMP_LEADER_CUSTOM_ANY" Language="en_US">
+			<Text>Our interests conflict. Time to add you to the monopoly!</Text>
+		</Row>
+		<!--MAKE PEACE-->
+		<!--AI accepts from human-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_TEMP_LEADER_CUSTOM_ANY" Language="en_US">
+			<Text>This suits our interests.</Text>
+		</Row>
+		<!--AI refuses human-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_TEMP_LEADER_CUSTOM_ANY" Language="en_US">
+			<Text>We refuse your peace contract!</Text>
+		</Row>
+		<!--AI requests from human-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_TEMP_LEADER_CUSTOM_ANY" Language="en_US">
+			<Text>We ask for a peace contract.</Text>
+		</Row>
+		<!--DEFEAT-->
+		<!--AI is Defeated-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_TEMP_LEADER_CUSTOM_ANY" Language="en_US">
+			<Text>You cheated... It doesn't count... I bet you're playing on settler difficulty!</Text>
+		</Row>
+		<!--Human is Defeated (will see this in hotseat)-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_TEMP_LEADER_CUSTOM_ANY" Language="en_US">
+			<Text>[LOC_DIPLO_DEFEAT_FROM_AI_LEADER_TEMP_LEADER_CUSTOM_ANY]</Text>
+		</Row>
+
+
+
+
+		
+		
+		
+		
+		
+		
+
+		<!--Traits-->
+		<Row Tag="LOC_TRAIT_LEADER_TEMP_LEADER_CUSTOM_LTRAIT_NAME" Language="en_US">
+			<Text>THE GREAT LEAP FORWARD</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_TEMP_LEADER_CUSTOM_LTRAIT_DESCRIPTION" Language="en_US">
+			<Text>Can spend Builder charges to complete 20% of a district's [ICON_production] production cost.</Text>
+		</Row>
+
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_TEMP_CIV_TRAIT_NAME" Language="en_US">
+			<Text>THE PEOPLE'S REPUBLIC</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_TEMP_CIV_TRAIT_DESCRIPTION" Language="en_US">
+			<Text>Each city can build one more specialty [ICON_district] District than the [ICON_citizen] Population would normally allow.</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_TEMP_CUSTOM_NAME" Language="en_US">
+			<Text>GREAT WALL</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_TEMP_CUSTOM_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the builder ability to construct the Great Wall. +2 [ICON_gold] Gold. Provides an increase to [ICON_strength] Defense. Bonus to [ICON_gold] Gold if adjacent to other wall segments. Additional [ICON_culture] Culture and [ICON_tourism] Tourism as you advance through the Technology Tree for adjacent segments. Must be built in a line along the borders of your empire. Can only be pillaged (never destroyed) by natural disasters.</Text>
+		</Row>
+		
+		<Row Tag="LOC_UNIT_TEMP_CUSTOM_I_NAME" Language="en_US">
+			<Text>CROUCHING TIGER</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_TEMP_CUSTOM_I_DESCRIPTION" Language="en_US">
+			<Text>Chinese unique Medieval era unit, replaces the Crossbowman. Ranged unit with a [ICON_range] Range of 1 and high combat strength.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_TEMP_CUSTOM_II_NAME" Language="en_US">
+			<Text>Other Custom Unit</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_TEMP_CUSTOM_II_DESCRIPTION" Language="en_US">
+			<Text>This unit replaces Mechanized Infantry and has higher melee strength than normal Mechanized Infantry with less production value.</Text>
+		</Row>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</LocalizedText>
+</GameData>

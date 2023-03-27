@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Author: Scrinn -->
+<!-- DateCreated: 8/2/2017 4:00:00 AM -->
+<!--All units and their relevant modifiers are defined here.-->
+<GameData>
+	<Types>
+		<Row Type="UNIT_TEMP_CUSTOM_I" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_TEMP_CUSTOM_II" Kind="KIND_UNIT"/>
+	</Types>
+	
+	<UnitAiInfos>
+		<Row UnitType="UNIT_TEMP_CUSTOM_I" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_TEMP_CUSTOM_I" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_TEMP_CUSTOM_I" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_TEMP_CUSTOM_I" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_TEMP_CUSTOM_II" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_TEMP_CUSTOM_II" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_TEMP_CUSTOM_II" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_TEMP_CUSTOM_II" AiType="UNITTYPE_LAND_COMBAT"/>
+	</UnitAiInfos>
+	
+	<UnitReplaces>
+		<Row CivUniqueUnitType="UNIT_TEMP_CUSTOM_I" ReplacesUnitType="UNIT_CROSSBOWMAN"/>
+		<Row CivUniqueUnitType="UNIT_TEMP_CUSTOM_II" ReplacesUnitType="UNIT_MECHANIZED_INFANTRY"/>
+	</UnitReplaces>
+	
+	<TypeTags>
+		<Row Type="UNIT_TEMP_CUSTOM_II" Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_TEMP_CUSTOM_I" Tag="CLASS_MELEE"/>
+	</TypeTags>
+	
+	<Units>
+		<Row UnitType="UNIT_TEMP_CUSTOM_I" BaseMoves="3" Cost="400" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_TEMP_CUSTOM_I_NAME" Description="LOC_UNIT_TEMP_CUSTOM_I_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="2" Combat="90" PrereqTech="TECH_REPLACEABLE_PARTS" TraitType="TRAIT_CIVILIZATION_UNIT_TEMP_CUSTOM_I"/>
+		<Row UnitType="UNIT_TEMP_CUSTOM_II" BaseMoves="3" Cost="500" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_TEMP_CUSTOM_II_NAME" Description="LOC_UNIT_TEMP_CUSTOM_II_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="2" Combat="110" PrereqTech="TECH_SATELLITES" TraitType="TRAIT_CIVILIZATION_UNIT_TEMP_CUSTOM_II"/>
+	</Units>
+	
+	<UnitUpgrades>
+		<Row Unit="UNIT_TEMP_CUSTOM_I" UpgradeUnit="UNIT_TEMP_CUSTOM_II"/>
+	</UnitUpgrades>
+	
+	</GameData>
