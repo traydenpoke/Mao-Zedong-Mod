@@ -30,13 +30,145 @@
     <OutputPath>.</OutputPath>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="ArtDefs\Appeal.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Buildings.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Camera.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Cities.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\CityGenerators.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Civilizations.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Clutter.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Cultures.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Districts.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Eras.artdef">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="ArtDefs\FallbackLeaders.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Farms.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Features.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\FOW.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\GameLighting.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\GenericObject.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\GoodyHuts.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\GraphicsTweaks.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\IconReferences.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Improvements.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Landmarks.artdef">
       <SubType>Content</SubType>
     </Content>
     <Content Include="ArtDefs\Leaders.artdef">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="ArtDefs\Lenses.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\LodSettings.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Minimap.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Overlay.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\README">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Resources.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Routes.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\SkyBox.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\StrategicView.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Terrains.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\TerrainStyle.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\UIPreview.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\UnitActivities.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\UnitOperations.artdef">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="ArtDefs\Units.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Units_Great_People.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Unit_Bins.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\UserInterface.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\VFX.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Walls.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Water.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\WaterMaterials.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Wave.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\WonderMovie.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\WorldViewRoutes.artdef">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Core\Template_Buildings.xml">

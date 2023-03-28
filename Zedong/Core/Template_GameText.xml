@@ -469,7 +469,7 @@
 			<Text>The Workers Hall</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_TEMP_CUSTOM_DESCRIPTION" Language="en_US">
-			<Text>A district unique to China for industrial activity. Replaces the Industial Zone district and is cheaper to build. +2 [ICON_production] Production for each adjacent Commercial Hub, Aqueduct, Canal, and Dam districts. +1 [ICON_production] Production bonus for each adjacent resource. +1 [ICON_production] Production bonus for every two adjacent district tiles.</Text>
+			<Text>A district unique to China for industrial activity. Replaces the Industrial Zone district and is cheaper to build. +2 [ICON_production] Production for each adjacent Commercial Hub, Aqueduct, Canal, and Dam districts. +1 [ICON_production] Production bonus for each adjacent resource. +1 [ICON_production] Production bonus for every two adjacent district tiles.</Text>
 		</Row>
 		
 		<Row Tag="LOC_UNIT_TEMP_CUSTOM_I_NAME" Language="en_US">
