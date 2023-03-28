@@ -22,7 +22,7 @@
 	</TypeTags>
 	
 	<Units>
-		<Row UnitType="UNIT_TEMP_CUSTOM_I" Cost="140" Maintenance="3" BaseMoves="2" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" Combat="30" RangedCombat="50" Range="1" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_RANGED" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_TEMP_CUSTOM_I_NAME" Description="LOC_UNIT_TEMP_CUSTOM_I_DESCRIPTION" TraitType="TRAIT_CIVILIZATION_UNIT_TEMP_CUSTOM_I" PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_ADVANCED_BALLISTICS" PrereqTech="TECH_MACHINERY"/>
+		<Row UnitType="UNIT_TEMP_CUSTOM_I" Cost="140" Maintenance="2" BaseMoves="2" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" Combat="30" RangedCombat="45" Range="2" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_RANGED" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_TEMP_CUSTOM_I_NAME" Description="LOC_UNIT_TEMP_CUSTOM_I_DESCRIPTION" TraitType="TRAIT_CIVILIZATION_UNIT_TEMP_CUSTOM_I" PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_ADVANCED_BALLISTICS" PrereqTech="TECH_MACHINERY"/>
 	</Units>
 	
 	<UnitUpgrades>

@@ -3,7 +3,7 @@
 	<Types>
 		<Row Type="BUILDING_TEMP_CUSTOM" Kind="KIND_DISTRICT"/>
 	</Types>
-
+	
 	<DistrictReplaces>
 		<Row CivUniqueDistrictType="BUILDING_TEMP_CUSTOM" ReplacesDistrictType="DISTRICT_INDUSTRIAL_ZONE"/>
 	</DistrictReplaces>
@@ -13,9 +13,13 @@
 	</Districts>
 
 	<District_Adjacencies>
-		<Row DistrictType="BUILDING_TEMP_CUSTOM" YieldChangeId="Commerical_Hub_Production"/>
 		<Row DistrictType="BUILDING_TEMP_CUSTOM" YieldChangeId="District_Production"/>
 		<Row DistrictType="BUILDING_TEMP_CUSTOM" YieldChangeId="Resource_Production"/>
+		<Row DistrictType="BUILDING_TEMP_CUSTOM" YieldChangeId="Commerical_Hub_Production"/>
+		<Row DistrictType="BUILDING_TEMP_CUSTOM" YieldChangeId="Aqueduct_Production"/>
+		<Row DistrictType="BUILDING_TEMP_CUSTOM" YieldChangeId="Bath_Production"/>
+		<Row DistrictType="BUILDING_TEMP_CUSTOM" YieldChangeId="Canal_Production"/>
+		<Row DistrictType="BUILDING_TEMP_CUSTOM" YieldChangeId="Dam_Production"/>
 	</District_Adjacencies>
 
 	<District_CitizenYieldChanges>
@@ -27,9 +31,13 @@
 	</District_GreatPersonPoints>
 
 	<Adjacency_YieldChanges>
-		<Row ID="Commerical_Hub_Production" Description="LOC_DISTRICT_COMMERCIAL_HUB_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_COMMERCIAL_HUB"/>
 		<Row ID="District_Production" Description="LOC_DISTRICT_DISTRICT_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="1" TilesRequired="2" OtherDistrictAdjacent="true"/>
 		<Row ID="Resource_Production" Description="LOC_DISTRICT_RESOURCE_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="1" TilesRequired="1" AdjacentResource="true"/>
+		<Row ID="Commerical_Hub_Production" Description="LOC_DISTRICT_COMMERCIAL_HUB_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_COMMERCIAL_HUB"/>
+		<Row ID="Aqueduct_Production" Description="LOC_DISTRICT_AQUEDUCT_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_AQUEDUCT"/>
+		<Row ID="Bath_Production" Description="LOC_DISTRICT_BATH_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_BATH"/>
+		<Row ID="Canal_Production" Description="LOC_DISTRICT_CANAL_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_CANAL"/>
+		<Row ID="Dam_Production" Description="LOC_DISTRICT_DAM_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_DAM"/>
 	</Adjacency_YieldChanges>
 
 	<District_TradeRouteYields>

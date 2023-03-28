@@ -214,19 +214,19 @@ VALUES	('TRAIT_LEADER_TEMP_LEADER_CUSTOM_LTRAIT',						'LOC_TRAIT_LEADER_TEMP_LE
 --------------------------------------------------------------------------------------------------------------------------			
 INSERT INTO TraitModifiers			
 		(TraitType,													ModifierId)
-VALUES	('TRAIT_LEADER_TEMP_LEADER_CUSTOM_LTRAIT',						'TRAIT_BUILDER_DISTRICT_PERCENT');
+VALUES	('TRAIT_LEADER_TEMP_LEADER_CUSTOM_LTRAIT',						'TRAIT_BUILDER_DISTRICT_PERCENTAGE');
 --------------------------------------------------------------------------------------------------------------------------
 -- Modifiers
 --------------------------------------------------------------------------------------------------------------------------
---INSERT INTO Modifiers	
-		--(ModifierId,												ModifierType)
---VALUES	('TEMP_LEADER_CUSTOM_LTRAIT_EXTRA_SLOT_1',						'MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER');
+INSERT INTO Modifiers	
+		(ModifierId,												ModifierType)
+VALUES	('TRAIT_BUILDER_DISTRICT_PERCENTAGE',						'MODIFIER_PLAYER_ADJUST_UNIT_DISTRICT_PERCENT');
 --------------------------------------------------------------------------------------------------------------------------
 -- ModifierArguments
 --------------------------------------------------------------------------------------------------------------------------
---INSERT INTO ModifierArguments
-		--(ModifierId,												Name,							Value)
---VALUES	('TEMP_LEADER_CUSTOM_LTRAIT_EXTRA_SLOT_1',						'GovernmentSlotType',			'SLOT_ECONOMIC');
+INSERT INTO ModifierArguments
+		(ModifierId,												Name,				Value)
+VALUES	('TRAIT_BUILDER_DISTRICT_PERCENTAGE',						'Amount',			'35');
 
 
 
