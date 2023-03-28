@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameInfo>
 	<Types>
-		<Row Type="BUILDING_TEMP_CUSTOM" Kind="KIND_DISTRICT"/>
+		<Row Type="TB_UD_CHINA_WORKERS_HALL" Kind="KIND_DISTRICT"/>
 	</Types>
 	
 	<DistrictReplaces>
-		<Row CivUniqueDistrictType="BUILDING_TEMP_CUSTOM" ReplacesDistrictType="DISTRICT_INDUSTRIAL_ZONE"/>
+		<Row CivUniqueDistrictType="TB_UD_CHINA_WORKERS_HALL" ReplacesDistrictType="DISTRICT_INDUSTRIAL_ZONE"/>
 	</DistrictReplaces>
 	
 	<Districts>
-		<Row DistrictType="BUILDING_TEMP_CUSTOM" Name="LOC_BUILDING_TEMP_CUSTOM_NAME" Description="LOC_BUILDING_TEMP_CUSTOM_DESCRIPTION" PrereqTech="TECH_APPRENTICESHIP" PlunderType="PLUNDER_SCIENCE" PlunderAmount="25"  AdvisorType="ADVISOR_GENERIC" Cost="27" CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH" CostProgressionParam1="40" Maintenance="1" RequiresPlacement="true" RequiresPopulation="true" Aqueduct="false" NoAdjacentCity="false" InternalOnly="false" ZOC="false" CaptureRemovesBuildings="false" CaptureRemovesCityDefenses="false" MilitaryDomain="NO_DOMAIN" Appeal="-1" CityStrengthModifier="2" TraitType="TRAIT_CIVILIZATION_BUILDING_TEMP_CUSTOM"/>
+		<Row DistrictType="TB_UD_CHINA_WORKERS_HALL" Name="LOC_TB_UD_CHINA_WORKERS_HALL_NAME" Description="LOC_TB_UD_CHINA_WORKERS_HALL_DESCRIPTION" PrereqTech="TECH_APPRENTICESHIP" PlunderType="PLUNDER_SCIENCE" PlunderAmount="25"  AdvisorType="ADVISOR_GENERIC" Cost="27" CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH" CostProgressionParam1="40" Maintenance="1" RequiresPlacement="true" RequiresPopulation="true" Aqueduct="false" NoAdjacentCity="false" InternalOnly="false" ZOC="false" CaptureRemovesBuildings="false" CaptureRemovesCityDefenses="false" MilitaryDomain="NO_DOMAIN" Appeal="-1" CityStrengthModifier="2" TraitType="TRAIT_CIVILIZATION_TB_UD_CHINA_WORKERS_HALL"/>
 	</Districts>
 
 	<District_Adjacencies>
-		<Row DistrictType="BUILDING_TEMP_CUSTOM" YieldChangeId="District_Production"/>
-		<Row DistrictType="BUILDING_TEMP_CUSTOM" YieldChangeId="Resource_Production"/>
-		<Row DistrictType="BUILDING_TEMP_CUSTOM" YieldChangeId="Commerical_Hub_Production"/>
-		<Row DistrictType="BUILDING_TEMP_CUSTOM" YieldChangeId="Aqueduct_Production"/>
-		<Row DistrictType="BUILDING_TEMP_CUSTOM" YieldChangeId="Bath_Production"/>
-		<Row DistrictType="BUILDING_TEMP_CUSTOM" YieldChangeId="Canal_Production"/>
-		<Row DistrictType="BUILDING_TEMP_CUSTOM" YieldChangeId="Dam_Production"/>
+		<Row DistrictType="TB_UD_CHINA_WORKERS_HALL" YieldChangeId="District_Production"/>
+		<Row DistrictType="TB_UD_CHINA_WORKERS_HALL" YieldChangeId="Resource_Production"/>
+		<Row DistrictType="TB_UD_CHINA_WORKERS_HALL" YieldChangeId="Commerical_Hub_Production"/>
+		<Row DistrictType="TB_UD_CHINA_WORKERS_HALL" YieldChangeId="Aqueduct_Production"/>
+		<Row DistrictType="TB_UD_CHINA_WORKERS_HALL" YieldChangeId="Bath_Production"/>
+		<Row DistrictType="TB_UD_CHINA_WORKERS_HALL" YieldChangeId="Canal_Production"/>
+		<Row DistrictType="TB_UD_CHINA_WORKERS_HALL" YieldChangeId="Dam_Production"/>
 	</District_Adjacencies>
 
 	<District_CitizenYieldChanges>
-		<Row DistrictType="BUILDING_TEMP_CUSTOM" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+		<Row DistrictType="TB_UD_CHINA_WORKERS_HALL" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
 	</District_CitizenYieldChanges>
 	
 	<District_GreatPersonPoints>
-		<Row DistrictType="BUILDING_TEMP_CUSTOM" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="1"/>
+		<Row DistrictType="TB_UD_CHINA_WORKERS_HALL" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="1"/>
 	</District_GreatPersonPoints>
 
 	<Adjacency_YieldChanges>
@@ -41,6 +41,6 @@
 	</Adjacency_YieldChanges>
 
 	<District_TradeRouteYields>
-		<Row DistrictType="BUILDING_TEMP_CUSTOM" YieldType="YIELD_PRODUCTION" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="1"/>
+		<Row DistrictType="TB_UD_CHINA_WORKERS_HALL" YieldType="YIELD_PRODUCTION" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="1"/>
 	</District_TradeRouteYields>
 </GameInfo>

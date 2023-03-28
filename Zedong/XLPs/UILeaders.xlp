@@ -10,8 +10,8 @@
 	<m_PackageName text="UILeaders"/>
 	<m_Entries>
 		<Element>
-			<m_EntryID text="LEADER_LEADER_CUSTOM_NEUTRAL"/>
-			<m_ObjectName text="LEADER_LEADER_CUSTOM_NEUTRAL"/>
+			<m_EntryID text="LEADER_TB_MAO_ZEDONG_NEUTRAL"/>
+			<m_ObjectName text="LEADER_TB_MAO_ZEDONG_NEUTRAL"/>
 		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>

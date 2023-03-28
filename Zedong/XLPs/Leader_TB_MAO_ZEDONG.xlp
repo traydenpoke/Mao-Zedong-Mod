@@ -7,11 +7,11 @@
 		<revision>293</revision>
 	</m_Version>
 	<m_ClassName text="UITexture"/>
-	<m_PackageName text="LEADER_TEMP_LEADER_CUSTOM"/>
+	<m_PackageName text="TB_LEADER_MAO_ZEDONG"/>
 	<m_Entries>
 		<Element>
-			<m_EntryID text="ART_LEADER_LEADER_CUSTOM"/>
-			<m_ObjectName text="ART_LEADER_LEADER_CUSTOM"/>
+			<m_EntryID text="ART_LEADER_TB_MAO_ZEDONG"/>
+			<m_ObjectName text="ART_LEADER_TB_MAO_ZEDONG"/>
 		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>

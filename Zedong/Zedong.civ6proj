@@ -2,13 +2,13 @@
 <Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
-    <Name>Zedong Gaming</Name>
+    <Name>Mao Zedong</Name>
     <Guid>53c32deb-bee0-4c43-9f56-1d5cbab0ff17</Guid>
     <ProjectGuid>ffe73f49-4721-4331-b891-802ad5fde107</ProjectGuid>
     <ModVersion>1</ModVersion>
-    <Teaser>This is a brief description of the mod.</Teaser>
-    <Description>This is a brief description of the mod.</Description>
-    <Authors>trayb</Authors>
+    <Teaser>Mao Zedong mod</Teaser>
+    <Description>Chairman Mao Zedong mod.</Description>
+    <Authors>traydenpoke</Authors>
     <SpecialThanks>
     </SpecialThanks>
     <AffectsSavedGames>true</AffectsSavedGames>
@@ -188,148 +188,148 @@
     <Content Include="Mod.Art.xml">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ART_LEADER_LEADER_CUSTOM.dds">
+    <Content Include="Textures\ART_LEADER_TB_MAO_ZEDONG.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ART_LEADER_LEADER_CUSTOM.tex">
+    <Content Include="Textures\ART_LEADER_TB_MAO_ZEDONG.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_CUSTOM.dds">
+    <Content Include="Textures\FALLBACK_NEUTRAL_TB_MAO_ZEDONG.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_CUSTOM.tex">
+    <Content Include="Textures\FALLBACK_NEUTRAL_TB_MAO_ZEDONG.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_CIV_CUSTOM_200.dds">
+    <Content Include="Textures\ICON_TB_CHINA_200.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_CIV_CUSTOM_200.tex">
+    <Content Include="Textures\ICON_TB_CHINA_200.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_CIV_CUSTOM_22.dds">
+    <Content Include="Textures\ICON_TB_CHINA_22.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_CIV_CUSTOM_22.tex">
+    <Content Include="Textures\ICON_TB_CHINA_22.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_CIV_CUSTOM_256.dds">
+    <Content Include="Textures\ICON_TB_CHINA_256.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_CIV_CUSTOM_256.tex">
+    <Content Include="Textures\ICON_TB_CHINA_256.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_CIV_CUSTOM_30.dds">
+    <Content Include="Textures\ICON_TB_CHINA_30.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_CIV_CUSTOM_30.tex">
+    <Content Include="Textures\ICON_TB_CHINA_30.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_CIV_CUSTOM_32.dds">
+    <Content Include="Textures\ICON_TB_CHINA_32.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_CIV_CUSTOM_32.tex">
+    <Content Include="Textures\ICON_TB_CHINA_32.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_CIV_CUSTOM_36.dds">
+    <Content Include="Textures\ICON_TB_CHINA_36.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_CIV_CUSTOM_36.tex">
+    <Content Include="Textures\ICON_TB_CHINA_36.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_CIV_CUSTOM_44.dds">
+    <Content Include="Textures\ICON_TB_CHINA_44.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_CIV_CUSTOM_44.tex">
+    <Content Include="Textures\ICON_TB_CHINA_44.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_CIV_CUSTOM_45.dds">
+    <Content Include="Textures\ICON_TB_CHINA_45.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_CIV_CUSTOM_45.tex">
+    <Content Include="Textures\ICON_TB_CHINA_45.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_CIV_CUSTOM_48.dds">
+    <Content Include="Textures\ICON_TB_CHINA_48.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_CIV_CUSTOM_48.tex">
+    <Content Include="Textures\ICON_TB_CHINA_48.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_CIV_CUSTOM_50.dds">
+    <Content Include="Textures\ICON_TB_CHINA_50.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_CIV_CUSTOM_50.tex">
+    <Content Include="Textures\ICON_TB_CHINA_50.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_CIV_CUSTOM_55.dds">
+    <Content Include="Textures\ICON_TB_CHINA_55.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_CIV_CUSTOM_55.tex">
+    <Content Include="Textures\ICON_TB_CHINA_55.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_CIV_CUSTOM_64.dds">
+    <Content Include="Textures\ICON_TB_CHINA_64.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_CIV_CUSTOM_64.tex">
+    <Content Include="Textures\ICON_TB_CHINA_64.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_CIV_CUSTOM_80.dds">
+    <Content Include="Textures\ICON_TB_CHINA_80.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_CIV_CUSTOM_80.tex">
+    <Content Include="Textures\ICON_TB_CHINA_80.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_LEADER_CUSTOM_256.dds">
+    <Content Include="Textures\ICON_TB_MAO_ZEDONG_256.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_LEADER_CUSTOM_256.tex">
+    <Content Include="Textures\ICON_TB_MAO_ZEDONG_256.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_LEADER_CUSTOM_32.dds">
+    <Content Include="Textures\ICON_TB_MAO_ZEDONG_32.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_LEADER_CUSTOM_32.tex">
+    <Content Include="Textures\ICON_TB_MAO_ZEDONG_32.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_LEADER_CUSTOM_45.dds">
+    <Content Include="Textures\ICON_TB_MAO_ZEDONG_45.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_LEADER_CUSTOM_45.tex">
+    <Content Include="Textures\ICON_TB_MAO_ZEDONG_45.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_LEADER_CUSTOM_50.dds">
+    <Content Include="Textures\ICON_TB_MAO_ZEDONG_50.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_LEADER_CUSTOM_50.tex">
+    <Content Include="Textures\ICON_TB_MAO_ZEDONG_50.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_LEADER_CUSTOM_55.dds">
+    <Content Include="Textures\ICON_TB_MAO_ZEDONG_55.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_LEADER_CUSTOM_55.tex">
+    <Content Include="Textures\ICON_TB_MAO_ZEDONG_55.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_LEADER_CUSTOM_64.dds">
+    <Content Include="Textures\ICON_TB_MAO_ZEDONG_64.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_LEADER_CUSTOM_64.tex">
+    <Content Include="Textures\ICON_TB_MAO_ZEDONG_64.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_LEADER_CUSTOM_80.dds">
+    <Content Include="Textures\ICON_TB_MAO_ZEDONG_80.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_LEADER_CUSTOM_80.tex">
+    <Content Include="Textures\ICON_TB_MAO_ZEDONG_80.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\LEADER_LEADER_CUSTOM_BACKGROUND.dds">
+    <Content Include="Textures\LEADER_TB_MAO_ZEDONG_BACKGROUND.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\LEADER_LEADER_CUSTOM_BACKGROUND.tex">
+    <Content Include="Textures\LEADER_TB_MAO_ZEDONG_BACKGROUND.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\LEADER_LEADER_CUSTOM_NEUTRAL.dds">
+    <Content Include="Textures\LEADER_TB_MAO_ZEDONG_NEUTRAL.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\LEADER_LEADER_CUSTOM_NEUTRAL.tex">
+    <Content Include="Textures\LEADER_TB_MAO_ZEDONG_NEUTRAL.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="XLPs\Icons.xlp">
@@ -341,7 +341,7 @@
     <Content Include="XLPs\LeaderFallbacks.xlp">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="XLPs\Leader_LEADER_CUSTOM.xlp">
+    <Content Include="XLPs\Leader_TB_MAO_ZEDONG.xlp">
       <SubType>Content</SubType>
     </Content>
     <Content Include="XLPs\UILeaders.xlp">

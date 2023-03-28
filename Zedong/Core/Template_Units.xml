@@ -4,29 +4,29 @@
 <!--All units and their relevant modifiers are defined here.-->
 <GameData>
 	<Types>
-		<Row Type="UNIT_TEMP_CUSTOM_I" Kind="KIND_UNIT"/>
+		<Row Type="TB_UU_CHINA_CROUCHING_TIGER" Kind="KIND_UNIT"/>
 	</Types>
 	
 	<UnitAiInfos>
-		<Row UnitType="UNIT_TEMP_CUSTOM_I" AiType="UNITAI_COMBAT"/>
-		<Row UnitType="UNIT_TEMP_CUSTOM_I" AiType="UNITTYPE_RANGED"/>
-		<Row UnitType="UNIT_TEMP_CUSTOM_I" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="TB_UU_CHINA_CROUCHING_TIGER" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="TB_UU_CHINA_CROUCHING_TIGER" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="TB_UU_CHINA_CROUCHING_TIGER" AiType="UNITTYPE_LAND_COMBAT"/>
 	</UnitAiInfos>
 	
 	<UnitReplaces>
-		<Row CivUniqueUnitType="UNIT_TEMP_CUSTOM_I" ReplacesUnitType="UNIT_CROSSBOWMAN"/>
+		<Row CivUniqueUnitType="TB_UU_CHINA_CROUCHING_TIGER" ReplacesUnitType="UNIT_CROSSBOWMAN"/>
 	</UnitReplaces>
 	
 	<TypeTags>
-		<Row Type="UNIT_TEMP_CUSTOM_I" Tag="CLASS_RANGED"/>
+		<Row Type="TB_UU_CHINA_CROUCHING_TIGER" Tag="CLASS_RANGED"/>
 	</TypeTags>
 	
 	<Units>
-		<Row UnitType="UNIT_TEMP_CUSTOM_I" Cost="140" Maintenance="2" BaseMoves="2" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" Combat="30" RangedCombat="45" Range="2" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_RANGED" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_TEMP_CUSTOM_I_NAME" Description="LOC_UNIT_TEMP_CUSTOM_I_DESCRIPTION" TraitType="TRAIT_CIVILIZATION_UNIT_TEMP_CUSTOM_I" PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_ADVANCED_BALLISTICS" PrereqTech="TECH_MACHINERY"/>
+		<Row UnitType="TB_UU_CHINA_CROUCHING_TIGER" Cost="140" Maintenance="2" BaseMoves="2" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" Combat="30" RangedCombat="45" Range="2" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_RANGED" AdvisorType="ADVISOR_CONQUEST" Name="LOC_TB_UU_CHINA_CROUCHING_TIGER_NAME" Description="LOC_TB_UU_CHINA_CROUCHING_TIGER_DESCRIPTION" TraitType="TRAIT_CIVILIZATION_TB_UU_CHINA_CROUCHING_TIGER" PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_ADVANCED_BALLISTICS" PrereqTech="TECH_MACHINERY"/>
 	</Units>
 	
 	<UnitUpgrades>
-		<Row Unit="UNIT_TEMP_CUSTOM_I" UpgradeUnit="UNIT_FIELD_CANNON"/>
+		<Row Unit="TB_UU_CHINA_CROUCHING_TIGER" UpgradeUnit="UNIT_FIELD_CANNON"/>
 	</UnitUpgrades>
 	
 	</GameData>

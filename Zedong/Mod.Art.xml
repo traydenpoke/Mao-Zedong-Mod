@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <AssetObjects::GameArtSpecification>
 	<id>
-		<name text="Zedong Gaming"/>
+		<name text="Mao Zedong"/>
 		<id text="53c32deb-bee0-4c43-9f56-1d5cbab0ff17"/>
 	</id>
 	<artConsumers>
@@ -457,7 +457,7 @@
 		<Element>
 			<libraryName text="Leader"/>
 			<relativePackagePaths>
-				<Element text="Leader_LEADER_CUSTOM"/>
+				<Element text="Leader_TB_MAO_ZEDONG"/>
 			</relativePackagePaths>
 		</Element>
 		<Element>
@@ -556,7 +556,7 @@
 			<relativePackagePaths>
 				<Element text="Icons"/>
 				<Element text="UILeaders"/>
-				<Element text="LEADER_TEMP_LEADER_CUSTOM"/>
+				<Element text="TB_LEADER_MAO_ZEDONG"/>
 				<Element text="LeaderBackgrounds"/>
 			</relativePackagePaths>
 		</Element>

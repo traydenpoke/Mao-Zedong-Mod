@@ -10404,7 +10404,7 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="BUILDING_TEMP_CUSTOM"/>
+										<m_ElementName text="TB_UD_CHINA_WORKERS_HALL"/>
 										<m_RootCollectionName text="District"/>
 										<m_ArtDefPath text="Districts.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>

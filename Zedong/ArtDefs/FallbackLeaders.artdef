@@ -23,7 +23,7 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects::BLPEntryValue">
-										<m_EntryName text="FALLBACK_NEUTRAL_LEADER_CUSTOM"/>
+										<m_EntryName text="FALLBACK_NEUTRAL_TB_MAO_ZEDONG"/>
 										<m_XLPClass text="LeaderFallback"/>
 										<m_XLPPath text="LeaderFallbacks.xlp"/>
 										<m_BLPPackage text="LeaderFallbacks"/>
@@ -38,7 +38,7 @@
 						</Element>
 					</Element>
 				</m_ChildCollections>
-				<m_Name text="LEADER_TEMP_LEADER_CUSTOM"/>
+				<m_Name text="TB_LEADER_MAO_ZEDONG"/>
 				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 		</Element>

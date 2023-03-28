@@ -2524,7 +2524,7 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="BUILDING_TEMP_CUSTOM"/>
+										<m_ElementName text="TB_UD_CHINA_WORKERS_HALL"/>
 										<m_RootCollectionName text="Districts"/>
 										<m_ArtDefPath text="Landmarks.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -2624,13 +2624,13 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..StringValue">
-										<m_Value text="Build_BUILDING_TEMP_CUSTOM"/>
+										<m_Value text="Build_TB_UD_CHINA_WORKERS_HALL"/>
 										<m_ParamName text="XrefName"/>
 									</Element>
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="Build_BUILDING_TEMP_CUSTOM"/>
+							<m_Name text="Build_TB_UD_CHINA_WORKERS_HALL"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
@@ -2641,13 +2641,13 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..StringValue">
-										<m_Value text="PLAY_AMBIENCE_BUILDING_TEMP_CUSTOM"/>
+										<m_Value text="PLAY_AMBIENCE_TB_UD_CHINA_WORKERS_HALL"/>
 										<m_ParamName text="XrefName"/>
 									</Element>
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="PLAY_AMBIENCE_BUILDING_TEMP_CUSTOM"/>
+							<m_Name text="PLAY_AMBIENCE_TB_UD_CHINA_WORKERS_HALL"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
@@ -2658,18 +2658,18 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..StringValue">
-										<m_Value text="STOP_AMBIENCE_BUILDING_TEMP_CUSTOM"/>
+										<m_Value text="STOP_AMBIENCE_TB_UD_CHINA_WORKERS_HALL"/>
 										<m_ParamName text="XrefName"/>
 									</Element>
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="STOP_AMBIENCE_BUILDING_TEMP_CUSTOM"/>
+							<m_Name text="STOP_AMBIENCE_TB_UD_CHINA_WORKERS_HALL"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 				</m_ChildCollections>
-				<m_Name text="BUILDING_TEMP_CUSTOM"/>
+				<m_Name text="TB_UD_CHINA_WORKERS_HALL"/>
 				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 			<Element>

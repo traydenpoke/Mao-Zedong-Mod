@@ -5,31 +5,31 @@
 --------------------------------------------------------------------------------------------------------------------------	
 INSERT INTO Types	
 		(Type,							Kind)
-VALUES	('LEADER_TEMP_LEADER_CUSTOM',	'KIND_LEADER');	
+VALUES	('TB_LEADER_MAO_ZEDONG',	'KIND_LEADER');	
 --------------------------------------------------------------------------------------------------------------------------
 -- Leaders
 --------------------------------------------------------------------------------------------------------------------------	
 INSERT INTO Leaders	
 		(LeaderType,					Name,										InheritFrom,		SceneLayers)
-VALUES	('LEADER_TEMP_LEADER_CUSTOM',	'LOC_LEADER_TEMP_LEADER_CUSTOM',		'LEADER_DEFAULT',	4);	
+VALUES	('TB_LEADER_MAO_ZEDONG',	'LOC_TB_LEADER_MAO_ZEDONG',		'LEADER_DEFAULT',	4);	
 --------------------------------------------------------------------------------------------------------------------------
 -- LeaderQuotes
 --------------------------------------------------------------------------------------------------------------------------	
 INSERT INTO LeaderQuotes	
 		(LeaderType,			Quote)
-VALUES	('LEADER_TEMP_LEADER_CUSTOM',	'LOC_PEDIA_LEADERS_PAGE_LEADER_TEMP_LEADER_CUSTOM_QUOTE');	
+VALUES	('TB_LEADER_MAO_ZEDONG',	'LOC_PEDIA_LEADERS_PAGE_TB_LEADER_MAO_ZEDONG_QUOTE');	
 --------------------------------------------------------------------------------------------------------------------------
 -- HistoricalAgendas
 --------------------------------------------------------------------------------------------------------------------------	
 INSERT INTO HistoricalAgendas	
 		(LeaderType,					AgendaType)
-VALUES	('LEADER_TEMP_LEADER_CUSTOM',	'AGENDA_OPTIMUS_PRINCEPS');
+VALUES	('TB_LEADER_MAO_ZEDONG',	'AGENDA_OPTIMUS_PRINCEPS');
 --------------------------------------------------------------------------------------------------------------------------
 -- AgendaPreferredLeaders
 --------------------------------------------------------------------------------------------------------------------------	
 INSERT INTO AgendaPreferredLeaders	
 		(LeaderType,					AgendaType)
-VALUES	('LEADER_TEMP_LEADER_CUSTOM',	'AGENDA_NUKE_LOVER');	
+VALUES	('TB_LEADER_MAO_ZEDONG',	'AGENDA_NUKE_LOVER');	
 
 
 --==========================================================================================================================
@@ -39,12 +39,12 @@ VALUES	('LEADER_TEMP_LEADER_CUSTOM',	'AGENDA_NUKE_LOVER');
 --------------------------------------------------------------------------------------------------------------------------	
 INSERT INTO PlayerColors	
 		(Type,							Usage,			PrimaryColor, 										SecondaryColor,											TextColor)
-VALUES	('LEADER_TEMP_LEADER_CUSTOM',	'Unique',		'COLOR_PLAYER_TEMP_CIV_CUSTOM_LEADER_CUSTOM_PRIMARY',		'COLOR_PLAYER_TEMP_CIV_CUSTOM_LEADER_CUSTOM_SECONDARY', 		'COLOR_PLAYER_WHITE_TEXT');	
+VALUES	('TB_LEADER_MAO_ZEDONG',	'Unique',		'COLOR_PLAYER_TB_CHINA_TB_MAO_ZEDONG_PRIMARY',		'COLOR_PLAYER_TB_CHINA_TB_MAO_ZEDONG_SECONDARY', 		'COLOR_PLAYER_WHITE_TEXT');	
 
 INSERT INTO Colors 
 		(Type, 														Red, 	Green, 	Blue, 	Alpha)
-VALUES	('COLOR_PLAYER_TEMP_CIV_CUSTOM_LEADER_CUSTOM_PRIMARY',		1,		0,		0,		1),
-		('COLOR_PLAYER_TEMP_CIV_CUSTOM_LEADER_CUSTOM_SECONDARY', 	1,		1,		0,		1);
+VALUES	('COLOR_PLAYER_TB_CHINA_TB_MAO_ZEDONG_PRIMARY',		1,		0,		0,		1),
+		('COLOR_PLAYER_TB_CHINA_TB_MAO_ZEDONG_SECONDARY', 	1,		1,		0,		1);
 
 
 
@@ -55,7 +55,7 @@ VALUES	('COLOR_PLAYER_TEMP_CIV_CUSTOM_LEADER_CUSTOM_PRIMARY',		1,		0,		0,		1),
 --------------------------------------------------------------------------------------------------------------------------	
 INSERT INTO LoadingInfo	
 		(LeaderType,						BackgroundImage, 						ForegroundImage,						PlayDawnOfManAudio)
-VALUES	('LEADER_TEMP_LEADER_CUSTOM',		'LEADER_LEADER_CUSTOM_BACKGROUND',		'LEADER_LEADER_CUSTOM_NEUTRAL',			0);	
+VALUES	('TB_LEADER_MAO_ZEDONG',		'LEADER_TB_MAO_ZEDONG_BACKGROUND',		'LEADER_TB_MAO_ZEDONG_NEUTRAL',			0);	
 --==========================================================================================================================
 -- CIVILIZATIONS
 --==========================================================================================================================
@@ -63,107 +63,107 @@ VALUES	('LEADER_TEMP_LEADER_CUSTOM',		'LEADER_LEADER_CUSTOM_BACKGROUND',		'LEADE
 ----------------------------------------------------------------------------------------------------------------------------	
 INSERT INTO Types	
 		(Type,						Kind)
-VALUES	('CIVILIZATION_TEMP_CIV_CUSTOM',	'KIND_CIVILIZATION');
+VALUES	('CIVILIZATION_TB_CHINA',	'KIND_CIVILIZATION');
 ----------------------------------------------------------------------------------------------------------------------------
 -- Civilizations
 ----------------------------------------------------------------------------------------------------------------------------	
 INSERT INTO Civilizations	
 		(CivilizationType,					Name,										Description,									Adjective,										StartingCivilizationLevelType,	RandomCityNameDepth,	Ethnicity)
-VALUES	('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CIVILIZATION_TEMP_CIV_CUSTOM_NAME',	'LOC_CIVILIZATION_TEMP_CIV_CUSTOM_DESCRIPTION',	'LOC_CIVILIZATION_TEMP_CIV_CUSTOM_ADJECTIVE',	'CIVILIZATION_LEVEL_FULL_CIV',	30,						'ETHNICITY_AMERICAN');	
+VALUES	('CIVILIZATION_TB_CHINA',	'LOC_CIVILIZATION_TB_CHINA_NAME',	'LOC_CIVILIZATION_TB_CHINA_DESCRIPTION',	'LOC_CIVILIZATION_TB_CHINA_ADJECTIVE',	'CIVILIZATION_LEVEL_FULL_CIV',	30,						'ETHNICITY_AMERICAN');	
 ----------------------------------------------------------------------------------------------------------------------------			
 -- CityNames			
 ----------------------------------------------------------------------------------------------------------------------------		
 INSERT INTO CityNames	
 		(CivilizationType,			CityName)	
-VALUES	('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITY_NAME_TEMP_CIV_CUSTOM_2'),	
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITY_NAME_TEMP_CIV_CUSTOM_3'),	
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITY_NAME_TEMP_CIV_CUSTOM_4'),	
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITY_NAME_TEMP_CIV_CUSTOM_5'),	
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITY_NAME_TEMP_CIV_CUSTOM_6'),	
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITY_NAME_TEMP_CIV_CUSTOM_7'),	
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITY_NAME_TEMP_CIV_CUSTOM_8'),	
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITY_NAME_TEMP_CIV_CUSTOM_9'),	
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITY_NAME_TEMP_CIV_CUSTOM_10'),	
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITY_NAME_TEMP_CIV_CUSTOM_11'),	
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITY_NAME_TEMP_CIV_CUSTOM_12'),	
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITY_NAME_TEMP_CIV_CUSTOM_13'),	
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITY_NAME_TEMP_CIV_CUSTOM_14'),	
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITY_NAME_TEMP_CIV_CUSTOM_15'),	
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITY_NAME_TEMP_CIV_CUSTOM_16'),	
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITY_NAME_TEMP_CIV_CUSTOM_17'),	
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITY_NAME_TEMP_CIV_CUSTOM_18'),	
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITY_NAME_TEMP_CIV_CUSTOM_19'),	
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITY_NAME_TEMP_CIV_CUSTOM_20'),	
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITY_NAME_TEMP_CIV_CUSTOM_21'),	
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITY_NAME_TEMP_CIV_CUSTOM_22'),	
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITY_NAME_TEMP_CIV_CUSTOM_23'),	
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITY_NAME_TEMP_CIV_CUSTOM_24'),	
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITY_NAME_TEMP_CIV_CUSTOM_25'),	
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITY_NAME_TEMP_CIV_CUSTOM_26'),	
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITY_NAME_TEMP_CIV_CUSTOM_27'),	
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITY_NAME_TEMP_CIV_CUSTOM_28'),	
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITY_NAME_TEMP_CIV_CUSTOM_29'),	
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITY_NAME_TEMP_CIV_CUSTOM_30');	
+VALUES	('CIVILIZATION_TB_CHINA',	'LOC_CITY_NAME_TB_CHINA_2'),	
+		('CIVILIZATION_TB_CHINA',	'LOC_CITY_NAME_TB_CHINA_3'),	
+		('CIVILIZATION_TB_CHINA',	'LOC_CITY_NAME_TB_CHINA_4'),	
+		('CIVILIZATION_TB_CHINA',	'LOC_CITY_NAME_TB_CHINA_5'),	
+		('CIVILIZATION_TB_CHINA',	'LOC_CITY_NAME_TB_CHINA_6'),	
+		('CIVILIZATION_TB_CHINA',	'LOC_CITY_NAME_TB_CHINA_7'),	
+		('CIVILIZATION_TB_CHINA',	'LOC_CITY_NAME_TB_CHINA_8'),	
+		('CIVILIZATION_TB_CHINA',	'LOC_CITY_NAME_TB_CHINA_9'),	
+		('CIVILIZATION_TB_CHINA',	'LOC_CITY_NAME_TB_CHINA_10'),	
+		('CIVILIZATION_TB_CHINA',	'LOC_CITY_NAME_TB_CHINA_11'),	
+		('CIVILIZATION_TB_CHINA',	'LOC_CITY_NAME_TB_CHINA_12'),	
+		('CIVILIZATION_TB_CHINA',	'LOC_CITY_NAME_TB_CHINA_13'),	
+		('CIVILIZATION_TB_CHINA',	'LOC_CITY_NAME_TB_CHINA_14'),	
+		('CIVILIZATION_TB_CHINA',	'LOC_CITY_NAME_TB_CHINA_15'),	
+		('CIVILIZATION_TB_CHINA',	'LOC_CITY_NAME_TB_CHINA_16'),	
+		('CIVILIZATION_TB_CHINA',	'LOC_CITY_NAME_TB_CHINA_17'),	
+		('CIVILIZATION_TB_CHINA',	'LOC_CITY_NAME_TB_CHINA_18'),	
+		('CIVILIZATION_TB_CHINA',	'LOC_CITY_NAME_TB_CHINA_19'),	
+		('CIVILIZATION_TB_CHINA',	'LOC_CITY_NAME_TB_CHINA_20'),	
+		('CIVILIZATION_TB_CHINA',	'LOC_CITY_NAME_TB_CHINA_21'),	
+		('CIVILIZATION_TB_CHINA',	'LOC_CITY_NAME_TB_CHINA_22'),	
+		('CIVILIZATION_TB_CHINA',	'LOC_CITY_NAME_TB_CHINA_23'),	
+		('CIVILIZATION_TB_CHINA',	'LOC_CITY_NAME_TB_CHINA_24'),	
+		('CIVILIZATION_TB_CHINA',	'LOC_CITY_NAME_TB_CHINA_25'),	
+		('CIVILIZATION_TB_CHINA',	'LOC_CITY_NAME_TB_CHINA_26'),	
+		('CIVILIZATION_TB_CHINA',	'LOC_CITY_NAME_TB_CHINA_27'),	
+		('CIVILIZATION_TB_CHINA',	'LOC_CITY_NAME_TB_CHINA_28'),	
+		('CIVILIZATION_TB_CHINA',	'LOC_CITY_NAME_TB_CHINA_29'),	
+		('CIVILIZATION_TB_CHINA',	'LOC_CITY_NAME_TB_CHINA_30');	
 ----------------------------------------------------------------------------------------------------------------------------
 -- CivilizationCitizenNames
 ----------------------------------------------------------------------------------------------------------------------------	
 INSERT INTO CivilizationCitizenNames	
 		(CivilizationType,			CitizenName,								Female,		Modern)
-VALUES	('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_MALE_1',				0,			0),
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_MALE_2',				0,			0),
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_MALE_3',				0,			0),
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_MALE_4',				0,			0),
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_MALE_5',				0,			0),
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_MALE_6',				0,			0),
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_MALE_7',				0,			0),
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_MALE_8',				0,			0),
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_MALE_9',				0,			0),
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_MALE_10',				0,			0),
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_FEMALE_1',			1,			0),
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_FEMALE_2',			1,			0),
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_FEMALE_3',			1,			0),
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_FEMALE_4',			1,			0),
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_FEMALE_5',			1,			0),
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_FEMALE_6',			1,			0),
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_FEMALE_7',			1,			0),
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_FEMALE_8',			1,			0),
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_FEMALE_9',			1,			0),
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_FEMALE_10',			1,			0),
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_MALE_1',		0,			1),
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_MALE_2',		0,			1),
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_MALE_3',		0,			1),
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_MALE_4',		0,			1),
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_MALE_5',		0,			1),
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_MALE_6',		0,			1),
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_MALE_7',		0,			1),
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_MALE_8',		0,			1),
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_MALE_9',		0,			1),
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_MALE_10',		0,			1),
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_FEMALE_1',		1,			1),
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_FEMALE_2',		1,			1),
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_FEMALE_3',		1,			1),
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_FEMALE_4',		1,			1),
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_FEMALE_5',		1,			1),
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_FEMALE_6',		1,			1),
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_FEMALE_7',		1,			1),
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_FEMALE_8',		1,			1),
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_FEMALE_9',		1,			1),
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_FEMALE_10',	1,			1);	
+VALUES	('CIVILIZATION_TB_CHINA',	'LOC_CITIZEN_TB_CHINA_MALE_1',				0,			0),
+		('CIVILIZATION_TB_CHINA',	'LOC_CITIZEN_TB_CHINA_MALE_2',				0,			0),
+		('CIVILIZATION_TB_CHINA',	'LOC_CITIZEN_TB_CHINA_MALE_3',				0,			0),
+		('CIVILIZATION_TB_CHINA',	'LOC_CITIZEN_TB_CHINA_MALE_4',				0,			0),
+		('CIVILIZATION_TB_CHINA',	'LOC_CITIZEN_TB_CHINA_MALE_5',				0,			0),
+		('CIVILIZATION_TB_CHINA',	'LOC_CITIZEN_TB_CHINA_MALE_6',				0,			0),
+		('CIVILIZATION_TB_CHINA',	'LOC_CITIZEN_TB_CHINA_MALE_7',				0,			0),
+		('CIVILIZATION_TB_CHINA',	'LOC_CITIZEN_TB_CHINA_MALE_8',				0,			0),
+		('CIVILIZATION_TB_CHINA',	'LOC_CITIZEN_TB_CHINA_MALE_9',				0,			0),
+		('CIVILIZATION_TB_CHINA',	'LOC_CITIZEN_TB_CHINA_MALE_10',				0,			0),
+		('CIVILIZATION_TB_CHINA',	'LOC_CITIZEN_TB_CHINA_FEMALE_1',			1,			0),
+		('CIVILIZATION_TB_CHINA',	'LOC_CITIZEN_TB_CHINA_FEMALE_2',			1,			0),
+		('CIVILIZATION_TB_CHINA',	'LOC_CITIZEN_TB_CHINA_FEMALE_3',			1,			0),
+		('CIVILIZATION_TB_CHINA',	'LOC_CITIZEN_TB_CHINA_FEMALE_4',			1,			0),
+		('CIVILIZATION_TB_CHINA',	'LOC_CITIZEN_TB_CHINA_FEMALE_5',			1,			0),
+		('CIVILIZATION_TB_CHINA',	'LOC_CITIZEN_TB_CHINA_FEMALE_6',			1,			0),
+		('CIVILIZATION_TB_CHINA',	'LOC_CITIZEN_TB_CHINA_FEMALE_7',			1,			0),
+		('CIVILIZATION_TB_CHINA',	'LOC_CITIZEN_TB_CHINA_FEMALE_8',			1,			0),
+		('CIVILIZATION_TB_CHINA',	'LOC_CITIZEN_TB_CHINA_FEMALE_9',			1,			0),
+		('CIVILIZATION_TB_CHINA',	'LOC_CITIZEN_TB_CHINA_FEMALE_10',			1,			0),
+		('CIVILIZATION_TB_CHINA',	'LOC_CITIZEN_TB_CHINA_MODERN_MALE_1',		0,			1),
+		('CIVILIZATION_TB_CHINA',	'LOC_CITIZEN_TB_CHINA_MODERN_MALE_2',		0,			1),
+		('CIVILIZATION_TB_CHINA',	'LOC_CITIZEN_TB_CHINA_MODERN_MALE_3',		0,			1),
+		('CIVILIZATION_TB_CHINA',	'LOC_CITIZEN_TB_CHINA_MODERN_MALE_4',		0,			1),
+		('CIVILIZATION_TB_CHINA',	'LOC_CITIZEN_TB_CHINA_MODERN_MALE_5',		0,			1),
+		('CIVILIZATION_TB_CHINA',	'LOC_CITIZEN_TB_CHINA_MODERN_MALE_6',		0,			1),
+		('CIVILIZATION_TB_CHINA',	'LOC_CITIZEN_TB_CHINA_MODERN_MALE_7',		0,			1),
+		('CIVILIZATION_TB_CHINA',	'LOC_CITIZEN_TB_CHINA_MODERN_MALE_8',		0,			1),
+		('CIVILIZATION_TB_CHINA',	'LOC_CITIZEN_TB_CHINA_MODERN_MALE_9',		0,			1),
+		('CIVILIZATION_TB_CHINA',	'LOC_CITIZEN_TB_CHINA_MODERN_MALE_10',		0,			1),
+		('CIVILIZATION_TB_CHINA',	'LOC_CITIZEN_TB_CHINA_MODERN_FEMALE_1',		1,			1),
+		('CIVILIZATION_TB_CHINA',	'LOC_CITIZEN_TB_CHINA_MODERN_FEMALE_2',		1,			1),
+		('CIVILIZATION_TB_CHINA',	'LOC_CITIZEN_TB_CHINA_MODERN_FEMALE_3',		1,			1),
+		('CIVILIZATION_TB_CHINA',	'LOC_CITIZEN_TB_CHINA_MODERN_FEMALE_4',		1,			1),
+		('CIVILIZATION_TB_CHINA',	'LOC_CITIZEN_TB_CHINA_MODERN_FEMALE_5',		1,			1),
+		('CIVILIZATION_TB_CHINA',	'LOC_CITIZEN_TB_CHINA_MODERN_FEMALE_6',		1,			1),
+		('CIVILIZATION_TB_CHINA',	'LOC_CITIZEN_TB_CHINA_MODERN_FEMALE_7',		1,			1),
+		('CIVILIZATION_TB_CHINA',	'LOC_CITIZEN_TB_CHINA_MODERN_FEMALE_8',		1,			1),
+		('CIVILIZATION_TB_CHINA',	'LOC_CITIZEN_TB_CHINA_MODERN_FEMALE_9',		1,			1),
+		('CIVILIZATION_TB_CHINA',	'LOC_CITIZEN_TB_CHINA_MODERN_FEMALE_10',	1,			1);	
 ----------------------------------------------------------------------------------------------------------------------------			
 -- CivilizationInfo			
 ----------------------------------------------------------------------------------------------------------------------------		
 INSERT INTO CivilizationInfo	
 		(CivilizationType,			Header,						Caption,								SortIndex)	
-VALUES	('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CIVINFO_LOCATION',		'LOC_CIVINFO_TEMP_CIV_CUSTOM_LOCATION',		10),	
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CIVINFO_SIZE',			'LOC_CIVINFO_TEMP_CIV_CUSTOM_SIZE',			20),	
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CIVINFO_POPULATION',	'LOC_CIVINFO_TEMP_CIV_CUSTOM_POPULATION',		30),	
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CIVINFO_CAPITAL', 		'LOC_CIVINFO_TEMP_CIV_CUSTOM_CAPITAL',			40);
+VALUES	('CIVILIZATION_TB_CHINA',	'LOC_CIVINFO_LOCATION',		'LOC_CIVINFO_TB_CHINA_LOCATION',		10),	
+		('CIVILIZATION_TB_CHINA',	'LOC_CIVINFO_SIZE',			'LOC_CIVINFO_TB_CHINA_SIZE',			20),	
+		('CIVILIZATION_TB_CHINA',	'LOC_CIVINFO_POPULATION',	'LOC_CIVINFO_TB_CHINA_POPULATION',		30),	
+		('CIVILIZATION_TB_CHINA',	'LOC_CIVINFO_CAPITAL', 		'LOC_CIVINFO_TB_CHINA_CAPITAL',			40);
 ----------------------------------------------------------------------------------------------------------------------------
 -- CivilizationLeaders
 ----------------------------------------------------------------------------------------------------------------------------	
 INSERT INTO CivilizationLeaders	
 		(CivilizationType,						LeaderType,			CapitalName)
-VALUES	('CIVILIZATION_TEMP_CIV_CUSTOM',	'LEADER_TEMP_LEADER_CUSTOM',		'LOC_CITY_NAME_TEMP_CIV_CUSTOM_1');
+VALUES	('CIVILIZATION_TB_CHINA',	'TB_LEADER_MAO_ZEDONG',		'LOC_CITY_NAME_TB_CHINA_1');
 
 
 
@@ -175,7 +175,7 @@ VALUES	('CIVILIZATION_TEMP_CIV_CUSTOM',	'LEADER_TEMP_LEADER_CUSTOM',		'LOC_CITY_
 --------------------------------------------------------------------------------------------------------------------------			
 INSERT INTO DiplomacyInfo			
 		(Type,								BackgroundImage)
-VALUES	('LEADER_TEMP_LEADER_CUSTOM',		'ART_LEADER_LEADER_CUSTOM.dds');
+VALUES	('TB_LEADER_MAO_ZEDONG',		'ART_LEADER_TB_MAO_ZEDONG.dds');
 
 
 
@@ -202,19 +202,19 @@ VALUES	('LEADER_TEMP_LEADER_CUSTOM',		'ART_LEADER_LEADER_CUSTOM.dds');
 --------------------------------------------------------------------------------------------------------------------------	
 INSERT INTO Types	
 		(Type,														Kind)
-VALUES	('TRAIT_LEADER_TEMP_LEADER_CUSTOM_LTRAIT',						'KIND_TRAIT');	
+VALUES	('TRAIT_TB_LEADER_MAO_ZEDONG_LTRAIT',						'KIND_TRAIT');	
 --------------------------------------------------------------------------------------------------------------------------			
 -- Traits			
 --------------------------------------------------------------------------------------------------------------------------				
 INSERT INTO Traits				
 		(TraitType,													Name,													Description)
-VALUES	('TRAIT_LEADER_TEMP_LEADER_CUSTOM_LTRAIT',						'LOC_TRAIT_LEADER_TEMP_LEADER_CUSTOM_LTRAIT_NAME',			'LOC_TRAIT_LEADER_TEMP_LEADER_CUSTOM_LTRAIT_DESCRIPTION');	
+VALUES	('TRAIT_TB_LEADER_MAO_ZEDONG_LTRAIT',						'LOC_TRAIT_TB_LEADER_MAO_ZEDONG_LTRAIT_NAME',			'LOC_TRAIT_TB_LEADER_MAO_ZEDONG_LTRAIT_DESCRIPTION');	
 --------------------------------------------------------------------------------------------------------------------------		
 -- TraitModifiers		
 --------------------------------------------------------------------------------------------------------------------------			
 INSERT INTO TraitModifiers			
 		(TraitType,													ModifierId)
-VALUES	('TRAIT_LEADER_TEMP_LEADER_CUSTOM_LTRAIT',						'TRAIT_BUILDER_DISTRICT_PERCENTAGE');
+VALUES	('TRAIT_TB_LEADER_MAO_ZEDONG_LTRAIT',						'TRAIT_BUILDER_DISTRICT_PERCENTAGE');
 --------------------------------------------------------------------------------------------------------------------------
 -- Modifiers
 --------------------------------------------------------------------------------------------------------------------------
@@ -247,23 +247,23 @@ VALUES	('TRAIT_BUILDER_DISTRICT_PERCENTAGE',						'Amount',			'35');
 --------------------------------------------------------------------------------------------------------------------------	
 INSERT INTO Types	
 		(Type,													Kind)
-VALUES	('TRAIT_CIVILIZATION_TEMP_CIV_TRAIT',					'KIND_TRAIT'),
-		('TRAIT_CIVILIZATION_BUILDING_TEMP_CUSTOM',				'KIND_TRAIT'),
-		('TRAIT_CIVILIZATION_UNIT_TEMP_CUSTOM_I',				'KIND_TRAIT');
+VALUES	('TRAIT_CIVILIZATION_TB_CHINA_TRAIT',					'KIND_TRAIT'),
+		('TRAIT_CIVILIZATION_TB_UD_CHINA_WORKERS_HALL',				'KIND_TRAIT'),
+		('TRAIT_CIVILIZATION_TB_UU_CHINA_CROUCHING_TIGER',				'KIND_TRAIT');
 --------------------------------------------------------------------------------------------------------------------------			
 -- Traits			
 --------------------------------------------------------------------------------------------------------------------------				
 INSERT INTO Traits				
 		(TraitType,													Name,													Description)
-VALUES	('TRAIT_CIVILIZATION_TEMP_CIV_TRAIT',						'LOC_TRAIT_CIVILIZATION_TEMP_CIV_TRAIT_NAME',					'LOC_TRAIT_CIVILIZATION_TEMP_CIV_TRAIT_DESCRIPTION'),
-		('TRAIT_CIVILIZATION_BUILDING_TEMP_CUSTOM',				'LOC_TRAIT_CIVILIZATION_BUILDING_TEMP_CUSTOM_NAME',			'LOC_TRAIT_CIVILIZATION_BUILDING_TEMP_CUSTOM_DESCRIPTION'),
-		('TRAIT_CIVILIZATION_UNIT_TEMP_CUSTOM_I',				'LOC_UNIT_TEMP_CUSTOM_I_NAME',								'LOC_UNIT_TEMP_CUSTOM_I_DESCRIPTION');			
+VALUES	('TRAIT_CIVILIZATION_TB_CHINA_TRAIT',						'LOC_TRAIT_CIVILIZATION_TB_CHINA_TRAIT_NAME',					'LOC_TRAIT_CIVILIZATION_TB_CHINA_TRAIT_DESCRIPTION'),
+		('TRAIT_CIVILIZATION_TB_UD_CHINA_WORKERS_HALL',				'LOC_TRAIT_CIVILIZATION_TB_UD_CHINA_WORKERS_HALL_NAME',			'LOC_TRAIT_CIVILIZATION_TB_UD_CHINA_WORKERS_HALL_DESCRIPTION'),
+		('TRAIT_CIVILIZATION_TB_UU_CHINA_CROUCHING_TIGER',				'LOC_TB_UU_CHINA_CROUCHING_TIGER_NAME',								'LOC_TB_UU_CHINA_CROUCHING_TIGER_DESCRIPTION');			
 --------------------------------------------------------------------------------------------------------------------------		
 -- TraitModifiers		
 --------------------------------------------------------------------------------------------------------------------------			
 INSERT INTO TraitModifiers			
 		(TraitType,											ModifierId)
-VALUES	('TRAIT_CIVILIZATION_TEMP_CIV_TRAIT',					'TRAIT_EXTRA_DISTRICT_EACH_CITY');																					
+VALUES	('TRAIT_CIVILIZATION_TB_CHINA_TRAIT',					'TRAIT_EXTRA_DISTRICT_EACH_CITY');																					
 --------------------------------------------------------------------------------------------------------------------------
 -- Modifiers
 --------------------------------------------------------------------------------------------------------------------------
@@ -297,7 +297,7 @@ VALUES	('TRAIT_CIVILIZATION_TEMP_CIV_TRAIT',					'TRAIT_EXTRA_DISTRICT_EACH_CITY
 --------------------------------------------------------------------------------------------------------------------------	
 INSERT INTO LeaderTraits	
 		(LeaderType,			TraitType)
-VALUES	('LEADER_TEMP_LEADER_CUSTOM',	'TRAIT_LEADER_TEMP_LEADER_CUSTOM_LTRAIT');	
+VALUES	('TB_LEADER_MAO_ZEDONG',	'TRAIT_TB_LEADER_MAO_ZEDONG_LTRAIT');	
 
 
 
@@ -306,9 +306,9 @@ VALUES	('LEADER_TEMP_LEADER_CUSTOM',	'TRAIT_LEADER_TEMP_LEADER_CUSTOM_LTRAIT');
 ----------------------------------------------------------------------------------------------------------------------------	
 INSERT INTO CivilizationTraits	
 		(TraitType,															CivilizationType)
-VALUES	('TRAIT_CIVILIZATION_TEMP_CIV_TRAIT',									'CIVILIZATION_TEMP_CIV_CUSTOM'),
-		('TRAIT_CIVILIZATION_BUILDING_TEMP_CUSTOM',							'CIVILIZATION_TEMP_CIV_CUSTOM'),
-		('TRAIT_CIVILIZATION_UNIT_TEMP_CUSTOM_I',							'CIVILIZATION_TEMP_CIV_CUSTOM');
+VALUES	('TRAIT_CIVILIZATION_TB_CHINA_TRAIT',									'CIVILIZATION_TB_CHINA'),
+		('TRAIT_CIVILIZATION_TB_UD_CHINA_WORKERS_HALL',							'CIVILIZATION_TB_CHINA'),
+		('TRAIT_CIVILIZATION_TB_UU_CHINA_CROUCHING_TIGER',							'CIVILIZATION_TB_CHINA');
 
 
 
