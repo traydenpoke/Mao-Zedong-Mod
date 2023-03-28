@@ -7,7 +7,7 @@
 			<Text>China</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_TEMP_CIV_CUSTOM_DESCRIPTION" Language="en_US">
-			<Text>China</Text>
+			<Text>People's Republic of China</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_TEMP_CIV_CUSTOM_ADJECTIVE" Language="en_US">
 			<Text>Preserve Chinese communism by purging the capitalists.</Text>
@@ -23,7 +23,7 @@
 			<Text>1.412 Billion</Text>
 		</Row>
 		<Row Tag="LOC_CIVINFO_TEMP_CIV_CUSTOM_SIZE" Language="en_US">
-			<Text>9.597 Million SQKM</Text>
+			<Text>9.597 Million SQKM</Text>	
 		</Row>
 		<Row Tag="LOC_CIVINFO_TEMP_CIV_CUSTOM_CAPITAL" Language="en_US">
 			<Text>Beijing</Text>
@@ -451,7 +451,7 @@
 
 		<!--Traits-->
 		<Row Tag="LOC_TRAIT_LEADER_TEMP_LEADER_CUSTOM_LTRAIT_NAME" Language="en_US">
-			<Text>THE GREAT LEAP FORWARD</Text>
+			<Text>The Great Leap Forward</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_TEMP_LEADER_CUSTOM_LTRAIT_DESCRIPTION" Language="en_US">
 			<Text>Can spend Builder charges to complete 20% of a district's [ICON_production] production cost.</Text>
@@ -459,21 +459,21 @@
 
 
 		<Row Tag="LOC_TRAIT_CIVILIZATION_TEMP_CIV_TRAIT_NAME" Language="en_US">
-			<Text>THE PEOPLE'S REPUBLIC</Text>
+			<Text>The People's Republic</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_TEMP_CIV_TRAIT_DESCRIPTION" Language="en_US">
 			<Text>Each city can build one more specialty [ICON_district] District than the [ICON_citizen] Population would normally allow.</Text>
 		</Row>
 
 		<Row Tag="LOC_BUILDING_TEMP_CUSTOM_NAME" Language="en_US">
-			<Text>THE WORKERS HALL</Text>
+			<Text>The Workers Hall</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_TEMP_CUSTOM_DESCRIPTION" Language="en_US">
 			<Text>A district unique to China for industrial activity. Replaces the Industial Zone district and is cheaper to build. +2 [ICON_production] Production for each adjacent Commercial Hub, Aqueduct, Canal, and Dam districts. +1 [ICON_production] Production bonus for each adjacent resource. +1 [ICON_production] Production bonus for every two adjacent district tiles.</Text>
 		</Row>
 		
 		<Row Tag="LOC_UNIT_TEMP_CUSTOM_I_NAME" Language="en_US">
-			<Text>CROUCHING TIGER</Text>
+			<Text>Crouching Tiger</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_TEMP_CUSTOM_I_DESCRIPTION" Language="en_US">
 			<Text>Chinese unique Medieval era unit, replaces the Crossbowman. Ranged unit with a [ICON_range] Range of 1 and high combat strength, as well as lower [ICON_production] Production cost.</Text>
